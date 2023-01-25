@@ -1,0 +1,38 @@
+html {
+  font-size: max(5ex, 8vmax);
+  font-family: sans-serif;
+  line-height: 1.618;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+}
+
+article {
+  align-items: flex-end;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  min-height: 100vh;
+  padding: 1em;
+}
+
+:any-link { text-decoration-style: dotted }
+:focus { text-decoration-style: solid }
+:hover { text-decoration-style: double }
+
+h1 { flex-basis: 100% }
+u { all: unset }
+p { flex-basis: 50% }
+
+b {
+  font-weight: 500;
+  box-shadow: 0 1ex 0 0;
+}
+
+.wavy { text-decoration-style: wavy }
+.rove { text-decoration-line: overline }
+.bull { text-decoration-style: double }

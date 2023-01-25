@@ -1,0 +1,21 @@
+::selection {
+  background: black;
+  color: hotpink;
+}
+
+:root {
+  color: seashell;
+  background: mediumvioletred;
+}
+
+:any-link {
+  color: mistyrose;
+}
+
+:focus {
+  filter: invert(100%);
+  outline: thick dotted;
+  text-shadow:
+    1vw 0vh 0,
+    -1vw 0vh 0;
+}
